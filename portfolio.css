@@ -2,10 +2,6 @@ body {
     background-color: black;
 }
 
-p{
-    color:white;
-}
-
 .NameLogo {
     display:block;
     max-width: 100%;
@@ -15,4 +11,50 @@ p{
 .nav-link {
     font-family: 'Playfair Display', serif;
     font-size: 140%;
+}
+
+/* Version A of About Me scrapped, code kept for reference
+
+#AboutMe {
+    font-family: 'Playfair Display', serif;
+}
+
+.AboutMeText {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 5%;
+    padding: 0 10% 0 10%;
+}
+
+.AboutMeSection {
+    background-color: white;
+    color: black;
+    overflow-wrap: break-word;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+
+*/
+
+.cardsize {
+    margin: 10%;
+    clear: both;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+.card-body {
+    text-align: center;
+    margin: 20% 0 20% 0;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0 10% 0 10%;
+}
+
+.card-img {
+    float: right;
+    height: auto;
+    display: block;
+    overflow-wrap: break-word;
+    max-width: 100%
 }

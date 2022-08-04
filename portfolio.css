@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+p{
+    color:white;
+}
+
+.NameLogo {
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    font-family: 'Playfair Display', serif;
+    font-size: 140%;
+}

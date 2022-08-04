@@ -10,13 +10,9 @@
         <link rel="icon" type="image/x-icon" href="./assets/Icons/MoonFavicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+         <!-- Custom styles for this template -->
+        <link href="portfolio.css" rel="stylesheet" type="text/css">
         <style>
-            body {
-                background-color: black;
-            }
-            p{color:white;}
-
             @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
         </style>
     </head>
@@ -24,15 +20,13 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img class="favumbnail" src="assets/Icons/Logo.png" alt="site name logo" width="200" height="200">
-                </a>
+                <a class="navbar-brand" href="index.html"><img class="NameLogo" src="assets/Icons/FlowerLogo.jpg" height="200" width="200"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#AboutMe">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -55,7 +49,7 @@
         <!-- About-->
         <div class="container">
             <div class="text-center mt-5">
-                <h2>About Me</h2>
+                <h2 id="AboutMe">About Me</h2>
                 <img class="img-thumbnail" src="./assets/Icons/ClassSelfieCircle.png" alt="profile picture circle purple" width="200" height="200">
                 <p>I am a graduate from Wake Tech Community College with a degree in Web Development and I have a strong interest in UX design. 
                 Creating designs that are both functional and suit the desginated purpose while being accessible is my passion.  
@@ -65,7 +59,7 @@
         <!-- Website Portfolio-->
         <div class="container">
             <div class="text-center mt-5">
-            <h2>Portfolio</h2>
+            <h2 id="Contact">Portfolio</h2>
             <p>Compliation of Previous Projects</p>
             </div>
         </div>

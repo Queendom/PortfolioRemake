@@ -4473,6 +4473,7 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
+  font-family: 'Playfair Display', serif !important; 
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {

@@ -13,6 +13,43 @@ body {
     font-size: 140%;
 }
 
+/* Fade In Image Effect*/
+
+.fadeimage {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  
 /* Version A of About Me scrapped, code kept for reference
 
 #AboutMe {
@@ -79,9 +116,7 @@ body {
 #ContactIcons {
     text-align: center;
     padding-left: 8%;
-    float:none;
     display: inline-flex;
-    max-width: 100%;
     width: 30%;
     height: auto;
 }

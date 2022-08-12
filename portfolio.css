@@ -72,6 +72,8 @@ body {
 
 */
 
+/* About Me Section */
+
 .cardsize {
     margin: 10%;
     clear: both;
@@ -96,13 +98,53 @@ body {
     max-width: 100%
 }
 
+/* Portfolio Carousel Testing */
+
+#portfolioheading {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 300%;
+    padding: 1% 0 1% 0;
+}
+
+.portfoliocaption {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-size: 150%;
+    padding: 1% 0 5% 0;
+}
+
+.carousel-inner:active {
+    color: white;
+}
+
+.carousel-control-prev {
+    list-style-type: none;
+    color: white;
+}
+
+/* UX Design Section */
+
+#uxdesign {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 300%;
+    padding: 5% 0 5% 0;
+}
+
+/* Contact Section */
 
 #contact {
     font-family: 'Playfair Display', serif;
+    font-size: 300%;
+    color: white;
 }
 
 #ContactTouch {
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 150%;
+    color:white;
+    padding: 4% 0 4% 0;
 }
 
 .contactimage {
@@ -115,11 +157,12 @@ body {
 
 #ContactIcons {
     text-align: center;
-    padding-left: 8%;
+    padding-left: 15%;
     display: inline-flex;
-    width: 30%;
+    width: 32%;
     height: auto;
 }
+
 
 .grow img{
     transition: all .2s ease-in-out; 
@@ -127,7 +170,7 @@ body {
 }
     
 .grow img:hover{
-    transform: scale(1.1); 
+    transform: scale(1.3); 
     opacity: 0.7;
 }
 
